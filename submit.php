@@ -1,6 +1,6 @@
 <?php
   $title = "Thank you || Bulk-Email Provider";
-  require_once $_SERVER["DOCUMENT_ROOT"]."/bulk_mail/header.php";
+  require_once "header.php";
    $f_name = $_POST['f_name'];
   $l_name = $_POST['l_name'];
   $phone = $_POST['phone'];
@@ -9,7 +9,7 @@
   if($f_name == null && $l_name == null && $phone == null && $mail == null){
 	  header('Location: support.php');
   }else{  
-	  echo "send mail feature is comming soon...";
+	  echo "<script> alert('send mail feature is comming soon...'); </script>";
   }
 ?>
   <!--body starts-->
@@ -25,5 +25,5 @@
 	</div>
   <!--body ends-->
 <?php
-  require_once $_SERVER["DOCUMENT_ROOT"]."/bulk_mail/footer.php";
+  require_once "footer.php";
 ?>

@@ -1,12 +1,12 @@
 <?php
   $title = "Bulk-Email Provider";
-  require_once $_SERVER["DOCUMENT_ROOT"]."/bulk_mail/header.php";
+  require_once "header.php";
 ?>
   <!--body starts-->
   <div class="container-fluid">
     <div class="row">
       <div class="col-12 m4">
-        <img src="img/banner2.jpg" class="responsive-img" alt="" width="1500px">
+        <img src="img/banner2.jpg" class="responsive-img" alt="" width="100%">
       </div>
     </div>
   </div> 
@@ -96,5 +96,5 @@
   <!--body ends-->
 
 <?php
-  require_once $_SERVER["DOCUMENT_ROOT"]."/bulk_mail/footer.php";
+  require_once "footer.php";
 ?>

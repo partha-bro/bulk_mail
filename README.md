@@ -1,3 +1,3 @@
 # bulk_mail
 
-![Screenshot](screenshot.png)
+![Screenshot](bulk_mail_screenshort.PNG)
